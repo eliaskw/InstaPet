@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    
+</head>
+<body>
+    <h1>Este es la primer red social para mascotas</h1>
+    <p>Este es un nuevo servicio que sirve para que las mascotas encuentren pareja 
+        asi que te invitamos a llenar el siguiente formulario.
+    </p>
+    <form>
+        <label>Nombre de la mascota
+            <input id= "nombre de la mascota" placeholder="nombre de la mascota" name="nombre"> <br>
+        </label> 
+<br>
+<br>
+        <label for="edad">Edad de la mascota:</label>
+            <input id="edad" placeholder="edad de la mascota" name="edad" ><br>
+<br>
+<br>
+        <label for="contraseña">Contraseña:</label>
+            <input id="contraseña" type="password" placeholder="contraseña" name="contraseña" ><br>
+
+        <label for="colordemascota">Color de mascota</label>
+        <input type="color" id="colordemascota" placeholder="Color de mascota" name="color" ><br>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" placeholder="Su email" name="email"><br>
+
+        <label for="tipo">Tipo de mascota</label>
+        <select type="text" name="tipo_de_mascota"  id="tipo">
+        <Option value="P">perro</Option>
+        <Option value="g">gato</Option>
+        <Option value="l">loro</Option>
+        <Option value="m">mono</Option>
+        <Option value="gz">ganso</Option>
+        </select><br>
+            <label>Hombre:
+                <input type="radio" name="genero" value="H"><br>
+            </label>
+            
+
+            <label >Mujer:
+                <input type="radio" name="genero" value="M"><br>
+            </label><br>
+
+            <textarea placeholder="escriba aquí"  name="comentarios" cols="40" rows="10"></textarea><br>
+
+            <label>Bases y condiciones
+                <input type="checkbox" name="bases_y_condiciones" value="acepta">
+              </label><br>
+              <br>
+              <br>
+
+            <input type="submit">
+           
+      </form>
+</body>
+</html>
